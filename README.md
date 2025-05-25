@@ -171,28 +171,3 @@ python cyber_secure_scanner.py company.com -o security_audit_2025.html
 - **Memory Efficient** - ใช้ memory อย่างมีประสิทธิภาพ
 
 
-## 🛠️ การพัฒนา
-
-### การเพิ่มฟีเจอร์ใหม่
-
-1. **Fork repository**
-2. **สร้าง feature branch**
-```bash
-git checkout -b feature/new-feature
-```
-3. **เขียนโค้ดและทดสอบ**
-4. **สร้าง Pull Request**
-
-### การรัน Tests
-```bash
-# รัน unit tests ทั้งหมด
-python -m pytest tests/
-
-# รัน test เฉพาะ
-python -m pytest tests/test_scanner.py -v
-```
-
-### Code Style
-- ใช้ PEP 8 coding standards
-- เขียน docstrings ภาษาไทยสำหรับฟังก์ชันใหม่
-- เพิ่ม type hints เมื่อเป็นไปได้
